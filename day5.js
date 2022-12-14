@@ -25,3 +25,4 @@ console.log(objects[name])
 
 let object1={Fruit1:'Mango',Fruit2:'Apple'}
 console.log(object1.Fruit1)
+// DOM is a structural representation of html

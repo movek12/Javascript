@@ -116,6 +116,9 @@ let ar =[10,"tv", [ 12, "dvd"], null]
 //     console.log(`${number1}/${number2}=${result}`)
 //     break;
 // }
+/*function Add(a,b) {
+    
+}   
 function Login() {
     var username=$("#username").val();
     var password=$("#password").val();
@@ -155,7 +158,7 @@ switch(op){
         break;
     }
     alert(`The result is ${result}`)
-}
+}*/
 
 //array methods
 //push adds an element at the end.
@@ -178,6 +181,7 @@ console.log(poomnumbers)
 let names=["Johan","Rishav","Birhang"]
 names.pop();
 console.log(names)
+
 
 let james=["Johan","Rishav","Birhang"]
 james[3]="Gems";
@@ -223,7 +227,7 @@ let players=[
 },
 ];
     
-const upnames=players.map(fullname);
+const names=players.map(fullname);
 function fullname(james){
 console.log(james.firstname, "test name");
 return {fullname:`${james.firstname} ${james.lastname}`};
@@ -248,6 +252,13 @@ return name.id===1;
 }
 console.log(names)*/
 
+
+
+const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const result = words.filter(word => word.length > 6);
+
+console.log(result);
 
 
 

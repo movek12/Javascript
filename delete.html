@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            height: 200vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .container {
+            background-color: rgb(248, 233, 233);
+
+        }
+
+
+
+
+        .int {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #button {
+            background-color: green;
+            color: white;
+            width: 80px;
+            height: 40px;
+            border-radius: 40px;
+        }
+
+        #button:hover {
+            color: greenyellow;
+        }
+
+        #buttondiv {
+            text-align: center;
+        }
+
+        .cdd {
+            display: flex;
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1>Registration Form</h1>
+        <h3>Fill out the form carefully for registration</h3>
+        <p>Student Name</p>
+        <div class="int">
+
+
+            <div class="col">
+                <input type="text"><br>
+                <label>First Name</label>
+            </div>
+            <div class="col">
+                <input type="text"><br>
+                <label>Middle Name</label>
+            </div>
+            <div class="col">
+                <input type="text"><br>
+                <label>Last name</label>
+            </div>
+
+
+        </div>
+        <div class="gender" style="display: flex;">
+            <div>
+                <p>Birth Date</p>
+                <select>
+                    <option>January</option>
+                    <option>January</option>
+                    <option>February</option>
+                    <option>March</option>
+                    <option>May</option>
+                    <option>Jun</option>
+                    <option>July</option>
+                    <option>August</option>
+                    <option>November</option>
+                    <option>December</option>
+                    <option>September</option>
+                </select>
+                <label>Month</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                </select>
+                <label>Day</label>
+                <select>
+                    <option></option>
+                    <option>2022</option>
+                    <option>2021</option>
+                    <option>2020</option>
+                    <option>2019</option>
+                    <option>2018</option>
+                    <option>2017</option>
+                    <option>2016</option>
+                    <option>2015</option>
+                    <option>2014</option>
+                    <option>2013</option>
+                    <option>2012</option>
+                    <option>2011</option>
+                    <option>2010</option>
+                    <option>2009</option>
+                    <option>2008</option>
+                    <option>2007</option>
+                    <option>2006</option>
+                    <option>2005</option>
+                    <option>2004</option>
+                    <option>2003</option>
+                    <option>2002</option>
+                    <option>2001</option>
+                </select>
+                <label>Year</label>
+            </div>
+
+            <div>
+                <p>
+                    Gender
+                </p>
+                <select>
+                    <option>Please Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>N/A</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div>
+            <p>Address</p>
+
+            <input class="cdd" style=" min-width: 90%;max-width: 10%;" type="text">
+            <label>Street Address</label>
+            <input class="cdd" style=" min-width: 90%;max-width: 0%;" type="text">
+            <label>Street Address Line 2</label>
+            <input class="cdd" style=" min-width: 50%;max-width: 50%;" type="text">
+            <label>City</label>
+            <input class="cdd" style=" min-width: 50%;max-width: 50%; " type="text">
+            <label>State/Province</label>
+            <input style=" min-width: 50%;max-width: 50% " class="cdd" type="text">
+            <label>Postal/Zip Code</label>
+
+
+        </div>
+        <div>
+            <p>Student E-mail</p>
+            <input placeholder="example@example.com" type="text"><br>
+            <label>example@example.com</label>
+        </div>
+        <div class="col">
+            <h4>Mobile number</h4>
+            <input type="tel" placeholder="(000) 000-0000">
+        </div>
+
+        <div>
+            <div class="col">
+                <p>Phone Number</p>
+                <input type="tel" placeholder="(000) 000-0000">
+            </div>
+
+            <div class="col">
+                <p>Work Number</p>
+                <input type="tel" placeholder="(000) 000-0000">
+            </div>
+            <div>
+                <p>Company</p>
+                <input type="text">
+            </div>
+
+            <div>
+                <p>Courses</p>
+                <select name="courses" id="courses">
+                    <option>Please Select</option>
+                    <option>Windows 8</option>
+                    <option>Introduction to Linux</option>
+                    <option>English 101</option>
+                    <option>English 102</option>
+                    <option>Creative Writing 1</option>
+                    <option>Creative Writing 2</option>
+                    <option>History 101</option>
+                    <option>History 102</option>
+                    <option>Math 101</option>
+                    <option>Math 102</option>
+                </select>
+            </div>
+            <div>
+                <p>Additional comments</p>
+                <textarea style="width: 670px; height: 173px;" data-component="textarea" autocomplete="off"></textarea>
+            </div>
+            <div id="buttondiv">
+                <button id="button" type="submit">submit</button>
+            </div>
+        </div>
+    </div>
+
+
+    </from>
+</body>
+
+</html>

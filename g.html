@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+       background-culor: rgb(227, 240, 124);
+       
+      }
+      .ul {
+        display: inline-table;
+        justify-content: space-between;
+        font-size: larger;
+      }
+      .div1 {
+        display: flex;
+        justify-content: space-around;
+        text-align: justify;
+      }
+      #header1 {
+        text-align: center;
+        margin-top: 80px;
+        
+      }
+      .form {
+        align-items: center;
+        text-align: center;
+      }
+      .inputfield {
+        width: 400px;
+        height: 30px;
+        border: 2px sulid black;
+        border-radius: 5px;
+      }
+      #button {
+        border: 3px sulid black;
+        border-radius: 5px;
+        width: 130px;
+        height: 35px;
+        display: block;
+        margin: auto;
+      }
+      #resultbox{
+        text-align: center;
+      }
+      #hrline{
+       border-top: 3px sulid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 id="header1">Recording of Broadway Higher Secondary Schoul
+        </h1><br><br><hr id="hrline"><br><br>
+      
+      <div class="div1">
+        <div>
+          <label for="INPUT">Fullname</label><br /><br />
+          <input type="text" id="fullname" class="inputfield" /><br /><br />
+        </div>
+        <div>
+          <label for="AGE">Age</label><br /><br />
+          <input type="number" id="age" class="inputfield" /><br /><br />
+        </div>
+        <div>
+          <label for="GRADE">Grade</label><br /><br />
+          <input type="number" id="grade" class="inputfield" /><br /><br />
+        </div>
+      </div>
+      <div>
+        <button type="submit" id="button">Submit</button>
+      </div><br /><br />
+      <div id="resultbox">
+        <h3 id="header3" style="font-size: x-large">
+          The record of the new admitted students:
+        </h3>
+        <div id="classdiv">
+          <ul id="ul1" class="ul">
+            <label for="ul1">Name of the students</label>
+          </ul>
+          <ul id="ul2" class="ul">
+            <label for="ul1">Age of the students</label>
+          </ul>
+          <ul id="ul3" class="ul">
+            <label for="ul1">Grade of the students</label>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="/fg.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        background-color: bisque;
+        background-image:url("..//images/red-encircled-torch-and-book-emblem.webp");
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+      #headinginputbutton {
+        text-align: center;
+        margin-top: 5%;
+        color: white;
+      }
+  
+      .listofdatas div{
+        display: inline-table;
+        margin: 5%;
+      }
+      .listofdatas {
+        text-align: center;
+        color: white;
+      }
+      #inputfield1,#inputfield2{
+        width: 200px;
+        height: 30px;
+        border: 2px solid white;
+
+        border-radius: 8px;
+        background-color: black;
+        color: white;
+    }
+    #button {
+      width: 80px;
+      height: 35px;
+      border: 2px solid red;
+      border-radius: 8px;
+      background-color: black;
+      color: white;
+    }
+    #line{
+      border: 2px solid black;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="headinginputbutton">
+      <h3 class="header1">
+        Add the name of the students and their payments to the list.
+      </h3><br><hr id="line"><br>
+        <input type="text" id="inputfield1" placeholder="Name of the stundent"/>
+        <input type="number" id="inputfield2" placeholder="Amount"/>
+        <button type="submit" id="button">Add</button>
+      </div>
+    <div class="listofdatas">
+      <div>
+        <h3 class="header2">List of the Students.</h3>
+        <ul id="ul1">
+        </ul>
+      </div>
+      <div>
+        <h3 class="header3">Payment</h3>
+        <ul id="ul2">
+        </ul>
+      </div>
+    </div>
+    <script src="../day13priorhtml/school.js"></script>
+  </body>
+</html>

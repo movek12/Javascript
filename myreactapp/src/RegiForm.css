@@ -1,0 +1,15 @@
+body {
+  background-color: rgba(174, 125, 50, 0.644);
+  justify-content: flex-start;
+  text-align: left;
+  color: white;
+  /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHta---M1cJ66_4RdF6oJqUubiqzRC_Z3RUg&usqp=CAU); */
+  background-repeat:repeat5 ;
+}
+.inputfield {
+  border: 2px solid black;
+  border-radius: 8px;
+  height: 30px;
+  width: 250px;
+  margin: 1%;
+}

@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './Registration.css';
 export default function ALogInForm1() {
 
     const [userInfo,setUserInfo] = useState({
